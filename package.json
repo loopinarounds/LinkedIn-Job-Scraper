@@ -1,0 +1,24 @@
+{
+  "name": "loginsystem",
+  "version": "1.0.0",
+  "description": "A simple login/logout system using an SQL database and express",
+  "main": "login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loopinarounds/LoginSystem.git"
+  },
+  "author": "Bradley Weaver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loopinarounds/LoginSystem/issues"
+  },
+  "homepage": "https://github.com/loopinarounds/LoginSystem#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1"
+  }
+}
